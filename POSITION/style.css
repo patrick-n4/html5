@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background-color: beige;
+  position: relative;
+}
+
+.stick{
+    background-color: cyan;
+    position: sticky;
+    top: 0;
+    transition: width 3s;
+}

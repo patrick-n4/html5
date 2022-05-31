@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 90%;
+  margin: 0 auto;
+  height: 60px;
+  text-align: left;
+  background-color: #3898d2;
+}
+ul {
+  list-style-type: none;
+}
+
+.first li{
+  float: left;
+  /* width: 14%; */
+  padding: 1em 1em;
+}
+
+.first li ul{
+  display: none;
+}
+.first li
+
+

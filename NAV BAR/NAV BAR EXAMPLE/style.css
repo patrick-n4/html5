@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #333;
+  height: 40px;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+}
+.province li {
+  float: left;
+}
+li {
+  width: 150px;
+  line-height: 40px;
+  height: 40px;
+  background-color: #ccc;
+}
+li:hover {
+  background-color: #000;
+  color: #fff;
+}
+a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+.district li {
+  display: none;
+  position: relative;
+}
+.province li:hover .district li {
+  display: block;
+}
+.province li:hover .sector li {
+  display: none;
+}
+.district li:hover .sector {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  display: block;
+}
+.district li:hover .sector li {
+  display: block;
+}
+.province li:hover .cell li {
+  display: none;
+}
+.sector li:hover .cell {
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 0;
+}
+.sector li:hover .cell li {
+  display: block;
+}
+.sector li:hover .village li {
+  display: none;
+}
+.cell li:hover .village {
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 0;
+}
+.cell li:hover .village li {
+  display: block;
+}

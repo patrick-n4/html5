@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+}
+.child1 {
+  height: 3em;
+  background-color: red;
+  float: left;
+  width: 100%;
+}
+.child2 {
+  height: 15em;
+  width: 17em;
+  background-color: blue;
+  clear: left;
+  float: left;
+}
+
+.child3 {
+  height: 15em;
+  width: 17em;
+  background-color: peachpuff;
+  float: left;
+}
+.child4 {
+  height: 15em;
+  width: 17em;
+  background-color: green;
+  float: left;
+}
+.child5 {
+  height: 30em;
+  width: 25.8em;
+  background-color: cyan;
+  float: right;
+}
+.child6 {
+    height: 7.5em;
+    background-color: brown;
+    width: 51em;
+    float: left;
+}
+.child7 {
+    height: 7.5em;
+    background-color: aquamarine;
+    width: 51em;
+    clear: left;
+}
+.child8 {
+    height: 2.5em;
+    background-color: chocolate;
+    clear: right;
+}
