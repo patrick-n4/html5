@@ -56,3 +56,17 @@ a{
 .district li:hover .sector li{
     display: block;
 }
+
+.district li:hover .cell li{
+    display: none;
+}
+
+.sector li:hover .cell{
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+}
+.sector>li:hover .cell li{
+    display: block;
+}
